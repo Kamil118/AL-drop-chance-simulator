@@ -70,7 +70,7 @@ int max_roll_count = 300; // maximum amount of rolls it tries to attempt
 
 int min_roll_count = 10; // minimum amount of rolls it tries to attempt
 
-for(int i = min_roll_count; i <= max_roll_count; i++){// loop tries 1 to max_roll_count attempts of rolling
+for(int i = min_roll_count; i <= max_roll_count; i++){// loop tries min_roll_count to max_roll_count attempts of rolling
 
     int successful = 0; //amount of rolls that have been succesful
 
